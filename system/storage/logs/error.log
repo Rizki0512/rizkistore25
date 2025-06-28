@@ -1,0 +1,71 @@
+2025-06-11 00:44:21 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\rizkistore\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 50
+2025-06-11 01:19:19 - PHP Warning:  rename(C:\xampp\htdocs\rizkistore\system\storage\cache\template\88\88aF19C.tmp,C:/xampp/htdocs/rizkistore/system/storage/cache/template/88/88a5190500221a7a4a5e4f56c97cd7ef.php): Access is denied (code: 5) in C:\xampp\htdocs\rizkistore\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 61
+2025-06-11 01:19:19 - Error: Failed to write cache file "C:/xampp/htdocs/rizkistore/system/storage/cache/template/88/88a5190500221a7a4a5e4f56c97cd7ef.php".
+File: C:\xampp\htdocs\rizkistore\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php
+Line: 76
+
+Backtrace: 0
+File: C:\xampp\htdocs\rizkistore\system\storage\vendor\twig\twig\src\Environment.php
+Line: 397
+Class: Twig\Cache\FilesystemCache
+Function: write
+
+Backtrace: 1
+File: C:\xampp\htdocs\rizkistore\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: loadTemplate
+
+Backtrace: 2
+File: C:\xampp\htdocs\rizkistore\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 3
+File: C:\xampp\htdocs\rizkistore\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 4
+File: C:\xampp\htdocs\rizkistore\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\rizkistore\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\rizkistore\admin\controller\localisation\currency.php
+Line: 183
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 7
+File: C:\xampp\htdocs\rizkistore\admin\controller\localisation\currency.php
+Line: 49
+Class: Opencart\Admin\Controller\Localisation\Currency
+Function: getList
+
+Backtrace: 8
+File: C:\xampp\htdocs\rizkistore\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Localisation\Currency
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\rizkistore\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\rizkistore\admin\index.php
+Line: 20
+Function: require_once
+2025-06-25 00:50:34 - PHP Warning:  unlink(C:/xampp/htdocs/rizkistore/system/storage/cache/cache.store.f4e59086bfd5322620dbd8df0fc3e3e6.1750796736): No such file or directory in C:\xampp\htdocs\rizkistore\system\library\cache\file.php on line 37
